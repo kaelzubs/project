@@ -7,7 +7,7 @@ export class TopHeader extends Component {
         return (
             <div>
                 <Container>
-                    <ul className="col-12 text-right">
+                    <ul className="nav col-12 text-right">
                         <li>
                             +234809940344
                         </li>
