@@ -1,14 +1,15 @@
 import './App.css';
 import Header from './components/Header';
-import TopHeader from './components/TopHeader';
-import Carousel from './components/Carousel';
+import CarouselGrid from './components/Carousel';
+import Grid from './components/Grid';
+
 
 function App() {
   return (
     <div>
-      <TopHeader />
-      <Header />
-      <Carousel />
+        <Header />
+        <CarouselGrid />
+        <Grid />
     </div>
   );
 }
